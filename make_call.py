@@ -13,7 +13,7 @@ for number in numbers:
         call = client.calls.create(
             from_="+13479605682",
             to=number.strip(),
-            url="https://handler.twilio.com/twiml/EH76053ac7e155c885a3dd244cf071cdbb"
+            url="https://handler.twilio.com/twiml/EH7158f3e4b2766aa9af39d4b811e2d67e"
         )
         print(f"Call initiated to {number}: SID {call.sid}")
     except Exception as e:
